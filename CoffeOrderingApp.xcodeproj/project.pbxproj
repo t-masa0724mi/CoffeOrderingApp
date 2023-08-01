@@ -11,6 +11,10 @@
 		E2A5A79B2A77909200F4E7D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5A79A2A77909200F4E7D4 /* ContentView.swift */; };
 		E2A5A79D2A77909700F4E7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A5A79C2A77909700F4E7D4 /* Assets.xcassets */; };
 		E2A5A7A02A77909700F4E7D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A5A79F2A77909700F4E7D4 /* Preview Assets.xcassets */; };
+		E2A5A7AA2A77925400F4E7D4 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5A7A92A77925400F4E7D4 /* Coffee.swift */; };
+		E2A5A7AC2A77939000F4E7D4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5A7AB2A77939000F4E7D4 /* Order.swift */; };
+		E2A5A7AF2A77988E00F4E7D4 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5A7AE2A77988E00F4E7D4 /* Webservice.swift */; };
+		E2A5A7B32A78B9B300F4E7D4 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5A7B22A78B9B300F4E7D4 /* OrderListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		E2A5A79A2A77909200F4E7D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2A5A79C2A77909700F4E7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A5A79F2A77909700F4E7D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2A5A7A92A77925400F4E7D4 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		E2A5A7AB2A77939000F4E7D4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E2A5A7AE2A77988E00F4E7D4 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		E2A5A7B02A779ACF00F4E7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E2A5A7B22A78B9B300F4E7D4 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,10 @@
 		E2A5A7972A77909200F4E7D4 /* CoffeOrderingApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2A5A7B12A78B98800F4E7D4 /* View Models */,
+				E2A5A7B02A779ACF00F4E7D4 /* Info.plist */,
+				E2A5A7AD2A77987400F4E7D4 /* Services */,
+				E2A5A7A62A7791EB00F4E7D4 /* Models */,
 				E2A5A7982A77909200F4E7D4 /* CoffeOrderingAppApp.swift */,
 				E2A5A79A2A77909200F4E7D4 /* ContentView.swift */,
 				E2A5A79C2A77909700F4E7D4 /* Assets.xcassets */,
@@ -65,6 +78,31 @@
 				E2A5A79F2A77909700F4E7D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2A5A7A62A7791EB00F4E7D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2A5A7A92A77925400F4E7D4 /* Coffee.swift */,
+				E2A5A7AB2A77939000F4E7D4 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2A5A7AD2A77987400F4E7D4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E2A5A7AE2A77988E00F4E7D4 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E2A5A7B12A78B98800F4E7D4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2A5A7B22A78B9B300F4E7D4 /* OrderListViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +177,10 @@
 			files = (
 				E2A5A79B2A77909200F4E7D4 /* ContentView.swift in Sources */,
 				E2A5A7992A77909200F4E7D4 /* CoffeOrderingAppApp.swift in Sources */,
+				E2A5A7AC2A77939000F4E7D4 /* Order.swift in Sources */,
+				E2A5A7B32A78B9B300F4E7D4 /* OrderListViewModel.swift in Sources */,
+				E2A5A7AF2A77988E00F4E7D4 /* Webservice.swift in Sources */,
+				E2A5A7AA2A77925400F4E7D4 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +312,13 @@
 				DEVELOPMENT_TEAM = 2WY4RH7F35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeOrderingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +343,13 @@
 				DEVELOPMENT_TEAM = 2WY4RH7F35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeOrderingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
